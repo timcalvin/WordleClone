@@ -19,6 +19,7 @@
 		B9DDAB372C1C878700AD7F98 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DDAB362C1C878700AD7F98 /* Global.swift */; };
 		B9DDAB392C1C904900AD7F98 /* LetterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DDAB382C1C904900AD7F98 /* LetterButtonView.swift */; };
 		B9DDAB3B2C1C911100AD7F98 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DDAB3A2C1C911100AD7F98 /* Keyboard.swift */; };
+		B9DDAB3E2C1CA92C00AD7F98 /* Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DDAB3D2C1CA92C00AD7F98 /* Shake.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		B9DDAB362C1C878700AD7F98 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		B9DDAB382C1C904900AD7F98 /* LetterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterButtonView.swift; sourceTree = "<group>"; };
 		B9DDAB3A2C1C911100AD7F98 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		B9DDAB3D2C1CA92C00AD7F98 /* Shake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				B9DDAAFA2C1C7C4C00AD7F98 /* WordleCloneApp.swift */,
+				B9DDAB3C2C1CA92200AD7F98 /* Animations */,
 				B9DDAB2F2C1C831100AD7F98 /* Extensions */,
 				B9DDAB282C1C810200AD7F98 /* Models */,
 				B9DDAB302C1C83BE00AD7F98 /* Views */,
@@ -121,6 +124,14 @@
 				B9DDAB342C1C84C300AD7F98 /* WordleDataModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B9DDAB3C2C1CA92200AD7F98 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B9DDAB3D2C1CA92C00AD7F98 /* Shake.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,7 @@
 				B9DDAAFB2C1C7C4C00AD7F98 /* WordleCloneApp.swift in Sources */,
 				B9DDAB3B2C1C911100AD7F98 /* Keyboard.swift in Sources */,
 				B9DDAB2C2C1C82BE00AD7F98 /* Guess.swift in Sources */,
+				B9DDAB3E2C1CA92C00AD7F98 /* Shake.swift in Sources */,
 				B9DDAB352C1C84C300AD7F98 /* WordleDataModel.swift in Sources */,
 				B9DDAB2E2C1C830900AD7F98 /* Color+Extension.swift in Sources */,
 				B9DDAB372C1C878700AD7F98 /* Global.swift in Sources */,
